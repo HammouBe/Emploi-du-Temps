@@ -1,0 +1,64 @@
+.vid{
+
+}
+.title{
+    text-align: center;
+    font-size: large;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: small;
+
+    size: 100xp;
+}
+th, td {
+    border: 1px solid #3a0000;
+    padding: 2px;
+    text-align: center;
+    font-size: medium;
+}
+th {
+    background-color: #f2f2f2;
+}
+.course {
+    background-color: #d9ead3; /* Light green for courses */
+}
+.tp {
+    background-color: #c9daf8; /* Light blue for TP */
+}
+.td {
+    background-color: #fce5cd; /* Light orange for TD */
+}
+.distance {
+    background-color: #d9d2e9; /* Light purple for distance courses */
+}
+.time{
+    text-align: center;
+}
+
+
+/**/
+td:hover {
+    background-color: #d6d6d6;
+}
+th:hover {
+    color: #f2f2f2;
+    background-color: #444444;
+}
+.course:hover {
+    background-color: #6cc04d; /* Light green for courses */
+}
+.tp:hover {
+    background-color: #5c98ff; /* Light blue for TP */
+}
+.td:hover {
+    background-color: #fdb363; /* Light orange for TD */
+}
+.distance:hover {
+    background-color: #8f5fff; /* Light purple for distance courses */
+}
+.time:hover{
+    text-align: center;
+}
